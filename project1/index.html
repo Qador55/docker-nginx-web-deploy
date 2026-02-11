@@ -1,2 +1,40 @@
-<h1>Hello Docker!</h1
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Welcome Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h1 { font-size: 3rem; margin-bottom: 0.5rem; }
+        p { font-size: 1.2rem; opacity: 0.9; }
+        .docker-logo { font-size: 4rem; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="docker-logo">🐳</div>
+        <h1>Docker Journey Started!</h1>
+        <p>This page is served by <strong>Nginx</strong> inside a <strong>Docker Container</strong>.</p>
+        <p style="font-size: 0.9rem;">Deployed with ❤️ on AWS EC2</p>
+    </div>
+</body>
+</html>
