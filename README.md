@@ -1,34 +1,30 @@
-# Docker & Nginx Deployment Journey 🚀
+# Multi-Project Docker Deployment 🚀
 
-This repository documents my hands-on experience with Docker, transitioning from simple static pages to custom web images on AWS EC2.
+A comprehensive collection of Docker projects ranging from simple web servers to multi-container microservices, deployed on AWS EC2.
 
-## 📁 Projects Included
+## 📁 Projects Roadmap
 
-### 1️⃣ Project 1: Basic Nginx Deployment
-- **Description:** Deploying a simple "Hello Docker" HTML page.
-- **Tools:** Official Nginx Image, Port Mapping (8080:80).
-- **Status:** ✅ Successfully deployed on EC2.
-  ---
-  ### 1️⃣ Project 1: Basic Nginx Deployment
-- **Description:** Deploying a simple "Hello Docker" HTML page.
-...
-![Hello Docker Result](رابط_صورة_المشروع_الأول_هنا)
+### 1️⃣ Project 1: Nginx Static Site
+- **Concept:** Web server basics & Volume mounting.
+- **Access:** `http://<EC2-IP>:8080`
 
-### 2️⃣ Project 2: Custom Website Image
-- **Description:** Building a custom Docker image for a responsive site template ("Dimension").
-- **Tools:** Dockerfile, `COPY` command, Port Mapping (8081:80).
-- **Status:** ✅ Built and Running.
-  ---
-  ### 2️⃣ Project 2: Custom Website Image
-- **Description:** Building a custom Docker image for a responsive site template.
-...
-![Dimension Site Result](رابط_صورة_المشروع_الثاني_هنا)
+### 2️⃣ Project 2: Custom Dimension Template
+- **Concept:** Dockerfile instructions & Custom Image building.
+- **Access:** `http://<EC2-IP>:8081`
 
-## 🛠 Skills Demonstrated
-- Docker CLI & Container Management.
-- Writing and Building Dockerfiles.
-- AWS EC2 Security Groups configuration.
-- Git & GitHub Workflow.
+### 3️⃣ Project 3: Flask + Redis Counter (Microservices)
+- **Concept:** Docker Compose, internal networking, and persistent data.
+- **Access:** `http://<EC2-IP>:5000`
+- **Stack:** Python (Flask) + Redis database.
+
+## 🛠 Skills Showcased
+- **Cloud:** AWS EC2 & Security Groups.
+- **DevOps:** Docker, Docker Compose, Dockerfile.
+- **Backend:** Python Flask & Redis.
+- **Tools:** Git/GitHub for version control.
+
+---
+*Developed by Qador55 as part of the Docker Mastery Journey.*
 
 
 
