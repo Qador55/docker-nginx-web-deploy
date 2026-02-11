@@ -18,6 +18,8 @@ A comprehensive collection of Docker projects ranging from simple web servers to
 - **Concept:** Docker Compose, internal networking, and persistent data.
 - **Access:** `http://<EC2-IP>:5000`
 - **Stack:** Python (Flask) + Redis database.
+- ### 🖼️ Project Preview
+![Project 3 Result](./result.png)
 
 ## 🛠 Skills Showcased
 - **Cloud:** AWS EC2 & Security Groups.
