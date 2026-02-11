@@ -7,6 +7,7 @@ A comprehensive collection of Docker projects ranging from simple web servers to
 ### 1️⃣ Project 1: Nginx Static Site
 - **Concept:** Web server basics & Volume mounting.
 - **Access:** `http://<EC2-IP>:8080`
+- project1/screenshot11.png
 
 ### 2️⃣ Project 2: Custom Dimension Template
 - **Concept:** Dockerfile instructions & Custom Image building.
